@@ -10,12 +10,12 @@ function palindrome(str) {
     end = arr.pop();
 
     if(begin !== end){
-      return str + " is not a palindrome.";
+      return "The string '" + str + "' is not a palindrome.";
     }
 
   }
 
-  return str + " is a palindrome."
+  return "The string '" + str + "' is a palindrome."
 }
 
 console.log(palindrome("eye"));
